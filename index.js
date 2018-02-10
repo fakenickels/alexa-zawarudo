@@ -5,7 +5,7 @@ app.intent('stopTime', {
 },
   (request, response) => {
     response.audioPlayerPlayStream('ENQUEUE', {
-      url: "https://next-song-url",
+      url: "https://raw.githubusercontent.com/grsabreu/alexa-zawarudo/master/zawarudo.mp3",
       offsetInMilliseconds: 0
     })
   }
