@@ -1,0 +1,12 @@
+{
+  "name": "alexa-zawarudo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:grsabreu/alexa-zawarudo.git",
+  "author": "Gabriel R. Abreu <grsabreu@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "alexa-app": "^4.2.1"
+  }
+}
