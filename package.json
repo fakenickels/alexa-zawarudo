@@ -8,5 +8,8 @@
   "private": true,
   "dependencies": {
     "alexa-app": "^4.2.1"
+  },
+  "scripts": {
+    "skill:get-info": "node ./getSkillInfo.js"
   }
 }
