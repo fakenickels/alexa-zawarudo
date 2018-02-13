@@ -1,0 +1,8 @@
+{
+  "name": "alexa-zawarudo",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::789170073637:role/alexa-zawarudo_lambda_function",
+  "environment": {}
+}

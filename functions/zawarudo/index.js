@@ -5,8 +5,8 @@ app.intent('StopTime', {
 },
   (request, response) => {
     response.audioPlayerPlayStream('REPLACE_ALL', {
-      url: 'https://raw.githubusercontent.com/grsabreu/alexa-zawarudo/master/zawarudo.mp3',
-      token: 'https://raw.githubusercontent.com/grsabreu/alexa-zawarudo/master/zawarudo.mp3',
+      url: 'https://s3-sa-east-1.amazonaws.com/alexa-zawarudo/zawarudo.mp3',
+      token: 'https://s3-sa-east-1.amazonaws.com/alexa-zawarudo/zawarudo.mp3',
       offsetInMilliseconds: 0
     })
     response.send()
